@@ -113,7 +113,7 @@ def PreProcess(DEMRasterPath,min_size,buffer_dist,outPutRaster):
 
     return outPutRaster
 
-    print "PreProcess Done!"
+    print("PreProcess Done!")
 
 
 DEMRasterPath = arcpy.GetParameterAsText(0)
@@ -121,4 +121,5 @@ min_size = float(arcpy.GetParameterAsText(1))
 buff_dis = float(arcpy.GetParameterAsText(2))
 outputRaster = arcpy.GetParameterAsText(3)
 PreProcess(DEMRasterPath,min_size,buff_dis,outputRaster)	
+
 
