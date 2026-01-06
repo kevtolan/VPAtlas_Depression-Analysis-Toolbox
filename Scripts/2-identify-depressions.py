@@ -107,7 +107,7 @@ def PreProcess(DEMRasterPath,min_size,buffer_dist):
 
     return os.path.join(input_dir,"dem_sink_depth.tif")
 
-    print "PreProcess Done!"
+    print("PreProcess Done!")
 
 
 
@@ -1097,3 +1097,4 @@ arcpy.Delete_management(outContours_Polygon_Summarize)
 arcpy.Delete_management(outContours_Polygon_Overlap)
 arcpy.Delete_management(outContours_Statistical_Table)
 print ("All Over!")
+
